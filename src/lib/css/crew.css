@@ -1,0 +1,33 @@
+.crew {
+  padding-top: 7.6rem;
+}
+
+.crew h5 {
+  margin-bottom: 15.4rem;
+}
+
+.crew-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 40.6rem;
+}
+
+.crew h4 {
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+}
+
+.crew h3 {
+  margin-bottom: 2.7rem;
+}
+
+.crew p {
+  max-width: 44.4rem;
+}
+
+.crew img {
+  position: fixed;
+  bottom: 0;
+  max-height: 78vh;
+}

@@ -1,0 +1,52 @@
+h1,
+h5 {
+  margin-bottom: 2.4rem;
+}
+
+p {
+  max-width: 44.5rem;
+}
+
+.home-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: calc(100vh - 13.7rem);
+  padding-bottom: 13.1rem;
+}
+
+.explore {
+  font-family: 'Bellefair', serif;
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  display: grid;
+  place-items: center;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  width: clamp(20rem, 24vw, 27.4rem);
+  height: clamp(20rem, 24vw, 27.4rem);
+  margin-left: auto;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.explore::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255 255 255 / 10%);
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.explore:hover::after {
+  transform: scale(1.64);
+}

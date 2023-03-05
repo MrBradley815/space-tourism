@@ -1,0 +1,40 @@
+.destination {
+  padding-top: 7.6rem;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.78fr;
+  grid-gap: 9.2rem;
+  align-items: end;
+}
+
+.destination-img {
+  margin: 0 auto;
+}
+
+.destination h5 {
+  margin-bottom: 6.4rem;
+}
+
+.destination h2 {
+  margin-bottom: 1.4rem;
+}
+
+.destination-description {
+  margin-bottom: 5.4rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: #383b4b;
+  margin-bottom: 2.8rem;
+}
+
+.destination .subheading-sm {
+  margin-bottom: 1.2rem;
+}
+
+.destination .subheading-lg {
+  color: var(--color-white);
+}
