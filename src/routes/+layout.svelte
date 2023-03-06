@@ -6,12 +6,19 @@
   import '$lib/css/main.css'
   import PageTransition from '$lib/components/PageTransition.svelte'
   import Navbar from '$lib/components/Navbar.svelte'
+  import { onMount } from 'svelte'
 
   export let url
+
+  let ready = false
+
+  onMount(() => ready = true)
 </script>
 
-<PageTransition {url}>
-  <Navbar />
+{#if ready}
+  <PageTransition {url}>
+    <Navbar />
 
-  <slot></slot>
-</PageTransition>
+    <slot></slot>
+  </PageTransition>
+{/if}
