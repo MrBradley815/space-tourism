@@ -2,7 +2,6 @@
   import '$lib/css/home.css'
   import img from '$lib/images/home/background-home-desktop.jpg'
   import { onMount } from 'svelte'
-  import { goto } from '$app/navigation'
   import { fade, fly } from 'svelte/transition'
 
   onMount(() => {
